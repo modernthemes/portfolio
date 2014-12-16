@@ -60,7 +60,7 @@ get_header('home'); ?>
                     <div class="square-content sq-1">
                         <div>
                             <span>
-                                <a href="<?php the_permalink($myposts[0]); ?>">
+                                <a href="<?php echo get_permalink($myposts[0]); ?>">
                                     <figure class="effect-chico">
                                         <?php echo get_the_post_thumbnail($myposts[0], 'large-square'); ?>
                                         <figcaption>
@@ -80,7 +80,7 @@ get_header('home'); ?>
                     <div class="square-content sq-2">
                         <div>
                             <span>
-                                <a href="<?php the_permalink($myposts[1]); ?>">
+                                <a href="<?php echo get_permalink($myposts[1]); ?>">
                                     <figure class="effect-chico">
                                         <?php echo get_the_post_thumbnail($myposts[1], 'small-square'); ?>
                                         <figcaption>
@@ -100,7 +100,7 @@ get_header('home'); ?>
                     <div class="square-content sq-3">
                         <div>
                             <span>
-                                <a href="<?php the_permalink($myposts[2]); ?>">
+                                <a href="<?php echo get_permalink($myposts[2]); ?>">
                                     <figure class="effect-chico">
                                         <?php echo get_the_post_thumbnail($myposts[2], 'small-square'); ?>
                                         <figcaption>
@@ -120,7 +120,7 @@ get_header('home'); ?>
                     <div class="square-content sq-4">
                         <div>
                             <span>
-                                <a href="<?php the_permalink($myposts[5]); ?>">
+                                <a href="<?php echo get_permalink($myposts[5]); ?>">
                                     <figure class="effect-chico">
                                         <?php echo get_the_post_thumbnail($myposts[5], 'large-square'); ?>
                                         <figcaption>
@@ -140,7 +140,7 @@ get_header('home'); ?>
                     <div class="square-content sq-5">
                         <div>
                             <span>
-                                <a href="<?php the_permalink($myposts[4]); ?>">
+                                <a href="<?php echo get_permalink($myposts[4]); ?>">
                                     <figure class="effect-chico">
                                         <?php echo get_the_post_thumbnail($myposts[4], 'small-square'); ?>
                                         <figcaption>
@@ -178,7 +178,7 @@ get_header('home'); ?>
                     <div class="square-content sq-7">
                         <div>
                             <span>
-                                <a href="<?php the_permalink($myposts[3]); ?>">
+                                <a href="<?php echo get_permalink($myposts[3]); ?>">
                                     <figure class="effect-chico">
                                         <?php echo get_the_post_thumbnail($myposts[3], 'large-square'); ?>
                                         <figcaption>
@@ -205,7 +205,7 @@ get_header('home'); ?>
                 <div class="square-content sq-8">
                     <div>
                         <span>
-                            <a href="<?php the_permalink($myposts[6]); ?>">
+                            <a href="<?php echo get_permalink($myposts[6]); ?>">
                                 <figure class="effect-chico">
                                     <?php echo get_the_post_thumbnail($myposts[6], 'small-square'); ?>
                                     <figcaption>
@@ -225,7 +225,7 @@ get_header('home'); ?>
                 <div class="square-content sq-9">
                     <div>
                         <span>
-                            <a href="<?php the_permalink($myposts[7]); ?>">
+                            <a href="<?php echo get_permalink($myposts[7]); ?>">
                                 <figure class="effect-chico">
                                     <?php echo get_the_post_thumbnail($myposts[7], 'small-square'); ?>
                                     <figcaption>
@@ -245,7 +245,7 @@ get_header('home'); ?>
                 <div class="square-content sq-10">
                     <div>
                         <span>
-                            <a href="<?php the_permalink($myposts[8]); ?>">
+                            <a href="<?php echo get_permalink($myposts[8]); ?>">
                                 <figure class="effect-chico">
                                     <?php echo get_the_post_thumbnail($myposts[8], 'small-square'); ?>
                                     <figcaption>
@@ -265,7 +265,7 @@ get_header('home'); ?>
                 <div class="square-content sq-11">
                     <div>
                         <span>
-                            <a href="<?php the_permalink($myposts[9]); ?>">
+                            <a href="<?php echo get_permalink($myposts[9]); ?>">
                                 <figure class="effect-chico">
                                     <?php echo get_the_post_thumbnail($myposts[9], 'small-square'); ?>
                                     <figcaption>
@@ -285,7 +285,7 @@ get_header('home'); ?>
                 <div class="square-content sq-12">
                     <div>
                         <span>
-                            <a href="<?php the_permalink($myposts[10]); ?>">
+                            <a href="<?php echo get_permalink($myposts[10]); ?>">
                                 <figure class="effect-chico">
                                     <?php echo get_the_post_thumbnail($myposts[10], 'small-square'); ?>
                                     <figcaption>
